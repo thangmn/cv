@@ -1,0 +1,127 @@
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+    
+}
+h1 {
+    font-size: 5.625rem;
+    margin: 30px auto 0px auto;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+}
+h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+a {
+    color: #11999E;
+    margin: 20px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+a:hover{
+    color: #EAF6F6;
+}
+p {
+    line-height: 2;
+}
+hr {
+    border: none;
+    border-top: 5px dotted #EAF6F6;
+    width: 5%;
+    margin: 100px auto 100px auto;
+}
+
+footer {
+    padding: 2em;
+    font-size: small;
+    color: #EAF6F6;
+}
+.top-container {
+    background-color: #DEF5E5;
+    padding-top: 80px;
+    position: relative;
+}
+.middle-container {
+    padding: 100px 0 100px;
+}
+.bottom-container {
+    background-color: #66bfbf;
+    height: 80px;
+    position: relative;
+    padding: 30px 0 20px;
+}
+/*img{
+    position: relative;
+    left: 100px;
+}*/
+.top-cloud{
+    position: absolute;
+    right: 250px;
+    top:50px;
+}
+.bottom-cloud {
+    position: absolute;
+    left: 200px;
+}
+.mountain {
+    height: auto;
+    width: 30%
+}
+.web {
+    text-decoration: underline;
+}
+.intro {
+    width: 50%;
+    margin: 0 auto 50px auto;
+}
+.contact-me-description {
+    width: 50%;
+    margin: 0 auto 50px auto;
+}
+.skill-row {
+    text-align: left;
+    margin: 100px auto;
+    width: 50%;
+}
+.coding {
+    width: 17%;
+    float: left;
+    margin-right: 30px;
+}
+.trekking {
+    width: 17%;
+    float: right;
+    margin-left: 30px;
+}
+.contact-me{
+    width: 80%;
+    margin: 0 auto 20px auto;
+}
+
+.btn {
+    -webkit-border-radius: 15;
+    -moz-border-radius: 15;
+    border-radius: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-size: 20px;
+    background: #34d984;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    position: relative;
+    top: 20px;
+}
+
+    .btn:hover {
+        background: #13f5c8;
+        text-decoration: none;
+    }
